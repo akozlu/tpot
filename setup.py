@@ -41,7 +41,6 @@ This project is hosted at https://github.com/EpistasisLab/tpot
                     'deap>=1.2',
                     'update_checker>=0.16',
                     'tqdm>=4.36.1',
-                    'stopit>=1.1.1',
                     'pandas>=0.24.2',
                     'joblib>=0.13.2',
                     'xgboost>=1.1.0'],

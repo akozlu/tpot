@@ -37,7 +37,7 @@ conda create -n testenv --yes python=$PYTHON_VERSION pip nose \
 
 source activate testenv
 
-pip install deap tqdm update_checker stopit \
+pip install deap tqdm update_checker \
     dask[delayed] dask[dataframe] xgboost cloudpickle>=1.5.0 \
     dask_ml==$DASK_ML_VERSION fsspec>=0.3.3 torch imbalanced-learn
 
@@ -56,7 +56,6 @@ python -c "import xgboost; print('xgboost %s ' % xgboost.__version__)"
 python -c "import update_checker; print('update_checker %s' % update_checker.__version__)"
 python -c "import tqdm; print('tqdm %s' % tqdm.__version__)"
 python -c "import pandas; print('pandas %s' % pandas.__version__)"
-python -c "import stopit; print('stopit %s' % stopit.__version__)"
 python -c "import torch; print('torch %s' % torch.__version__)"
 python -c "import imblearn; print('torch %s' % imblearn.__version__)"
 python setup.py build_ext --inplace
