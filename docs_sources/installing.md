@@ -14,8 +14,6 @@ TPOT is built on top of several existing Python libraries, including:
 
 * [tqdm](https://github.com/tqdm/tqdm)
 
-* [stopit](https://github.com/glenfant/stopit)
-
 * [pandas](http://pandas.pydata.org)
 
 * [joblib](https://joblib.readthedocs.io/en/latest/)
@@ -35,10 +33,10 @@ NumPy, SciPy, scikit-learn, pandas, joblib, and PyTorch can be installed in Anac
 conda install numpy scipy scikit-learn pandas joblib pytorch
 ```
 
-DEAP, update_checker, tqdm, stopit and xgboost can be installed with `pip` via the command:
+DEAP, update_checker, tqdm and xgboost can be installed with `pip` via the command:
 
 ```Shell
-pip install deap update_checker tqdm stopit xgboost
+pip install deap update_checker tqdm xgboost
 ```
 
 **Windows users: pip installation may not work on some Windows environments, and it may cause unexpected errors.** If you have issues installing XGBoost, check the [XGBoost installation documentation](http://xgboost.readthedocs.io/en/latest/build.html).
