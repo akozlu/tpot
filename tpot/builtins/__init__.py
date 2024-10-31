@@ -33,4 +33,5 @@ try:
     from .nn import PytorchLRClassifier, PytorchMLPClassifier
 except (ModuleNotFoundError, ImportError):
     import warnings
-    warnings.warn("Warning: optional dependency `torch` is not available. - skipping import of NN models.")
+    pass
+    #warnings.warn("Warning: optional dependency `torch` is not available. - skipping import of NN models.")
