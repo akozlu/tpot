@@ -23,4 +23,4 @@ License along with TPOT. If not, see <http://www.gnu.org/licenses/>.
 
 """
 
-__version__ = '0.12.1-swish-fork'
+__version__ = '0.12.1.1'
